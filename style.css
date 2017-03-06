@@ -1,7 +1,30 @@
+/* Color Pallete */
 body {
     background: lavender;
 }
+footer {
+    background: antiquewhite;
+}
 
-.sidebar {
-    
+/* LAYOUT */
+box-sizing: border-box;
+
+/* NAV */
+footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer a {
+    display: inline;
+    padding: 1em;
+}
+/*First Frame*/
+footer a {
+    text-indent: -1000px;
+    transition: text-indent 1s;
+}
+/*Last Frame*/
+footer:hover a {
+    text-indent: 0;
 }
